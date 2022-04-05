@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    background-color: #1a1b21;
+}
+
+.card--info {
+    display: flex;
+    flex-direction: column;
+    
+    width: 317px;
+    height: 800px;
+    
+}
+
+#email--button{
+    width:115px;
+    height: 34px;
+    border-radius: 6px;
+}
+#linkedin--button{
+    width:115px;
+    height: 34px;
+    border-radius: 6px;
+}
+
+.link--buttons{
+    display: flex;
+    justify-content:space-evenly
+
+}
+h1{
+    text-align: center;
+    margin-bottom: .15em;
+    font-size: 26px;
+    margin-top: .85em;
+}
+h3{
+    text-align: center;
+    color: #f3bf98;
+    margin-bottom: 1em;
+    font-weight: 400;
+    font-size: 12px;
+}
+h4{
+    text-align: center;
+    margin-bottom: 2em;
+    font-weight: 400;
+    font-size: 10px;
+}
+h2{
+    margin-top: .50em;
+    margin-bottom: .50em;
+}
+
+.about-int{
+    padding: 1.5em;
+}

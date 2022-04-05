@@ -1,11 +1,21 @@
-.App {
-  text-align: center;
+*{
+  color: white;
+  font-family: 'Inter', sans-serif;;
+  line-height: normal;
+  background-color: #1c1c1c;
+}
+p{
+  font-size: 12px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.App{
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,7 +24,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1c1c1c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
